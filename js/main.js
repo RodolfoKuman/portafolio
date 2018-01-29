@@ -18,7 +18,7 @@ $(document).on("ready",function(){
 
 	$("#contact-form").on("submit",function(ev){
 		ev.preventDefault();
-		var $form = $("#contacto");
+		var $form = $("#contact-form");
 		$.ajax({
 			url: "https://formspree.io/rodolfo.kuman@hotmail.com",
 			method: "POST",
